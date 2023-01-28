@@ -5,3 +5,21 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.buttons{
+    flex-basis: 350px;
+    width:250px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+}
+#display{
+    flex-basis: 50px;
+}
