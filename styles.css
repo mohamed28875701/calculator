@@ -61,7 +61,7 @@ body{
 }
 
 
-.nums:hover,.num:hover,.operators:hover{
+.nums:hover,.num:hover,.operators:hover,.equal:hover{
     transform: scale(1.05);
     background-color: rgb(181, 131, 141);
 }
